@@ -1,3 +1,5 @@
 # spring-multi-module
-Swagger UI
-Exception Handling
+Multiple module projects,
+Swagger UI,
+Exception Handling,
+REST Web Service
