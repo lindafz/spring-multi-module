@@ -1,10 +1,10 @@
 package com.lindazf.smm.company.data.service;
 
+import com.lindazf.smm.company.data.domain.Company;
+import com.lindazf.smm.company.data.domain.CompanyUser;
 import com.lindazf.smm.company.data.exception.CompanyExceptionDetails;
 import com.lindazf.smm.company.data.exception.ErrorCode;
 import com.lindazf.smm.company.data.exception.ErrorMessage;
-import com.lindazf.smm.company.data.domain.Company;
-import com.lindazf.smm.company.data.domain.CompanyUser;
 import com.lindazf.smm.company.data.repository.CompanyRepository;
 import com.lindazf.smm.company.data.repository.CompanyUserRepository;
 import lombok.extern.slf4j.Slf4j;
