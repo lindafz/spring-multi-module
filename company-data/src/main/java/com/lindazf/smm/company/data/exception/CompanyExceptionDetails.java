@@ -1,6 +1,5 @@
 package com.lindazf.smm.company.data.exception;
 
-import com.lindazf.smm.company.data.exception.CompanyException;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
