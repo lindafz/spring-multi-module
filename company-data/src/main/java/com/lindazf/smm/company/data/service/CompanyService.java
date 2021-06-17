@@ -48,17 +48,10 @@ public class CompanyService {
     }
 
     public CompanyUser createCompanyUser(CompanyUser user) throws CompanyExceptionDetails {
-        Long userId = user.getCompanyMemberId();
-//        if (user.getCompanyMemberId() != null || findCompanyUserByEmail(user.getEmail()).getCompanyMemberId() != null) {
-//            throw new CompanyExceptionDetails(ErrorMessage.MEMBER_EMAIL_EXIST + ", EMAIL = " + user.getEmail(), ErrorCode.CONFLICT);
-//        }
-        return companyUserRepository.save(user);
+           return companyUserRepository.save(user);
     }
 
     public CompanyUser updateUser(CompanyUser user) throws CompanyExceptionDetails {
-//        if (user.getCompanyMemberId() == null) {
-//            user.setCompanyMemberId(findCompanyUserByEmail(user.getEmail()).getCompanyMemberId());
-//        }
         return companyUserRepository.save(user);
     }
 
